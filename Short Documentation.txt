@@ -1,18 +1,19 @@
-###########################################################################
+###############################################################################
 Hello, here is a short explanation for my tests and the ideas behind them.
 
-###########################################################################
-	- Basically this was a first for me in using protractor and angular at all, so i heavily relied on the tutorials and documentaion both for angular and the pager-widget itself.
-	- I didn't know where to start at first and i didn't have much time, so i decided to implement the example page shown in the pager documentation and 
+###############################################################################
+
+1. Basically this was a first for me in using protractor and angular at all, so i heavily relied on the tutorials and documentaion both for angular and the pager-widget itself.
+2. I didn't know where to start at first and i didn't have much time, so i decided to implement the example page shown in the pager documentation and 
 run my tests against it. It took a while, but i got it running by mostly copying from the stackblitz template.
-	- After the successful run, I started with writing e2e tests
-	- Got some ideas from how to structure my tests and what basic stuff to include after some reading and understanding
-	- I started with a basic e2e test, session storage clear and error check.
-	- Then proceeding to do tests on the integration of the pager-component in the web-app. This is basically where most of the logic for tests comes from.
-	- I tried checking everything the pager-component is responsible for - from rendering all data, rendering all elements to check if these elements and data are working or true.
-	- I tried leaving some very basic comments in the spec.
-	- My main focus was around data rendering(in this case images + short descriptions) and the functionality of the pager-widget. Another thing to focus maybe is the customization features but i was not familiar enough with the code base to accomplish changes to the widget.
+3. After the successful run, I started with writing e2e tests
+4. Got some ideas from how to structure my tests and what basic stuff to include after some reading and understanding
+5. I started with a basic e2e test, session storage clear and error check.
+6. Then proceeding to do tests on the integration of the pager-component in the web-app. This is basically where most of the logic for tests comes from.
+7. I tried checking everything the pager-component is responsible for - from rendering all data, rendering all elements to check if these elements and data are working or true.
+8. I tried leaving some very basic comments in the spec.
+9. My main focus was around data rendering(in this case images + short descriptions) and the functionality of the pager-widget. Another thing to focus maybe is the customization features but i was not familiar enough with the code base to accomplish changes to the widget.
 
-##########################################################################
+###############################################################################
 
-	- If more information is needed, please contant me.
+ If more information is needed, please contant me.
